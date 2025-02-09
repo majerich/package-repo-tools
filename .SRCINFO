@@ -1,0 +1,17 @@
+pkgbase = package-repo-tools
+    pkgdesc = Tools for backing up and restoring Arch Linux package installations
+    pkgver = 2.0.0
+    pkgrel = 1
+    url = https://github.com/richardmajewski/package-repo-tools
+    arch = any
+    license = MIT
+    depends = bash
+    depends = curl
+    depends = pacman
+    depends = parallel
+    optdepends = yay: AUR package support
+    backup = etc/package-repo-tools.conf
+    source = package-repo-tools-2.0.0.tar.gz
+    sha256sums = SKIP
+
+pkgname = package-repo-tools

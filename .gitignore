@@ -1,0 +1,27 @@
+# Build artifacts
+*.tar.gz
+*.tar.xz
+# pkg/
+# src/
+
+# Backup files
+*~
+*.bak
+*.backup
+*.swp
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-*
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Package-specific
+/build/
+/dist/
