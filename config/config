@@ -1,0 +1,9 @@
+# Default verbosity level (0-2)
+VERBOSE=1
+
+# Include versions in reports by default
+INCLUDE_VERSIONS=0
+
+# Match versions during restore
+MATCH_VERSIONS=0
+
