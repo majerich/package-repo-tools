@@ -55,7 +55,7 @@ Options:
 
 ## Configuration
 
-Create a configuration file at ~/.config/package-repo-tools/config to set default options:
+Create a configuration file at `~/.config/package-repo-tools/config` to set default options:
 
 ```
 # Default verbosity level (0-2)
@@ -70,15 +70,9 @@ MATCH_VERSIONS=0
 
 ## Logs
 
-Logs are stored in ~/.local/state/package-repo-tools/logs/ with timestamps.
+Logs are stored in `~/.local/state/package-repo-tools/logs/` with timestamps.
 
 ## Dependencies
-
-This project includes the `getoptions` library for command-line argument parsing.
-
-- Original Author: Koichi Nakashima
-- Source: https://github.com/ko1nksm/getoptions
-- License: Creative Commons Zero v1.0 Universal
 
 ## Contributing
 
@@ -93,5 +87,3 @@ This project includes the `getoptions` library for command-line argument parsing
 MIT License - see LICENSE file for details
 
 ## Acknowledgments
-
-Special thanks to Koichi Nakashima for the getoptions library which is included in this project under the Creative Commons Zero v1.0 Universal license.
